@@ -10186,7 +10186,7 @@ iframe.uk-cover {
 .uk-card-secondary > :not([class*='uk-card-media']) .uk-icon-link,
 .uk-overlay-primary .uk-icon-link,
 .uk-offcanvas-bar .uk-icon-link {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.5);
 }
 .uk-light .uk-icon-link:hover,
 .uk-light .uk-icon-link:focus,
