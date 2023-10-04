@@ -5281,12 +5281,12 @@ ul.uk-nav-sub {
 /* Toggle
  ========================================================================== */
 .uk-navbar-toggle {
-  color: #999;
+  color: #fff;
 }
 .uk-navbar-toggle:hover,
 .uk-navbar-toggle:focus,
 .uk-navbar-toggle.uk-open {
-  color: #666;
+  color: #999;
   outline: none;
   text-decoration: none;
 }
