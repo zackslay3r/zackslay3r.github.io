@@ -8549,7 +8549,8 @@ iframe.uk-cover {
   margin-left: 10px !important;
 }
 .uk-margin-small-right {
-  margin-right: 10px !important;
+    margin-right: 10px !important;
+    color: #b52424;
 }
 /* Medium
  ========================================================================== */
