@@ -8541,6 +8541,8 @@ iframe.uk-cover {
 }
 .uk-margin-small-top {
   margin-top: 10px !important;
+  height:424px;
+  width:213px;
 }
 .uk-margin-small-bottom {
   margin-bottom: 10px !important;
