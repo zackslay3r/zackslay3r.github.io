@@ -143,7 +143,7 @@
                     <h2 id="involvement" class="uk-text-center title-link uk-heading-divider"><a href="#involvement">Involvement</a></h2>
                     <div class="uk-grid-small uk-child-width-1-1 uk-grid-row-medium" uk-grid>
                         <div>
-                            <p>As I entered the project all the changes in the level were made manually by the artist, one being the substitution of the windows meshes to test different wall compositions. Therefore, as a first task, I developed a small tool that using a slider allows the artist to quickly switch between the different meshes loaded in an array.</p>
+                            <p>My invovlement within this project was varied across many different aspects of the game. </p>
                         </div>
                         <div>
                             <div class="uk-position-relative uk-visible-toggle uk-child-width-1-1 uk-margin-small-bottom" uk-lightbox>
@@ -154,12 +154,6 @@
                                 </a>
                                 <div class="uk-margin-small-top uk-text-center uk-text-italic">The blueprint to switch the window mesh.</div>
                             </div>
-                        </div>
-                        <div>
-                            <p>
-                                Till now pretty straightforward, but things got tricky when switching windows whose sizes had different ratios. Luckily, the artist helped me by limiting the ratios to just two: 300x300 and 400x300. There is also a 500x300, but I wasn't able to handle that case and in accord with the artist I just ignored it.<br>
-                                To allow a mesh to fit in the same space previously occupied by a smaller or bigger mesh, I save the index of the current mesh, so when it is changed and the <code>constructor</code> is triggered, I can detect if the rate has changed and use a conversion ratio (in this case 3/4) to reduce or increase the scale of the actor. Unfortunately adding this additional variable was the only solution I found to the problem of not knowing which parameter has been edited when the constructor is called.
-                            </p>
                         </div>
                         <div>
                             <div class="uk-position-relative uk-visible-toggle uk-child-width-1-1 uk-margin-small-bottom" uk-lightbox>
